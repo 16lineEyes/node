@@ -6,7 +6,7 @@ let hook;
 const tests = {
   disabled() {
     hook = createHook({
-      promiseResolve() {},
+      promiseResolve(){},
     });
   },
   enabled() {
